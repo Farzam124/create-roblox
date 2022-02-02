@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-image: url(https://static.rbxcdn.com/images/IDE/DevelopSplashScreen/bg_top_banner.png);
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #dee1e3;
+    position:fixed;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+.link-image{
+    padding: 0 0.5rem;
+}
+.nav-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    padding:0.5rem 1.2rem;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+.link:hover{
+    border-bottom: 1px solid black;
+}
+.input-div{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding:0 5px;
+    border-radius: 6px;
+}
+input{
+    border: white;
+    font-size: 16px;
+    padding-left: 5px;
+    width: 300px;
+}
+#sign-up{
+    text-decoration: none;
+    padding:5px 10px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #00b06f;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+#log-in{
+    font-family: sans-serif;
+    text-decoration: none;
+    padding:5px 10px;
+    font-size: 1.1rem;
+    color: black;
+}
+h1{
+    color: white;
+    font-size: 4.5rem;
+    font-family: HCo Gotham SSm,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+}
+h2{
+    font-size: 2.4rem;
+    margin-top: 20px;
+    color: #dee1e3;
+    font-weight: 400;
+    font-family: HCo Gotham SSm,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+}
+p{
+    font-family:sans-serif;
+}
+.box-image-span{
+    display: flex;
+    align-items: center;
+    padding: 0 0 75px 550px;
+}
+.box-image{
+    width: 50px;
+}
+span{
+    font-size:3.3rem;
+    color: white;
+    font-weight:bolder;
+    margin-left: 20px;
+}
+.section-one{
+    text-align: center;
+    padding: 9rem 0 5rem 0;
+}
+button{
+    background-color: rgb(68, 68, 68);
+    border: rgb(68, 68, 68);
+    color: white;
+    padding: 15px 60px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+li{
+    list-style-type: none;
+    margin-top: 30px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+    margin-top: 20px;
+}
+.section-two{
+    display:flex;
+    padding: 5rem 20rem;
+    text-align: center;
+    background-color: #EFF2F5;
+}
+.section-two h3{
+    margin:30px 0;
+    font-size:22px;
+    color: rgb(73, 73, 73);
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.section-two p{
+    color: rgb(97, 97, 97);
+    font-size:1.1rem;
+    line-height: 1.5rem;
+    width: 80%;
+}
+.box-two-one{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.box-two-two{
+    margin-left: 2rem;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+h4{
+    font-size: 2.3rem;
+    color: rgb(59, 59, 59);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+h5{
+    font-size: 18px;
+    margin-top: 20px;
+    font-style: italic;
+    color: rgb(73, 73, 73);
+}
+.section-three{
+    text-align: center;
+    background-color: #EFF2F5;
+    padding: 50px 0;
+}
+.box-three{
+    background-color: white;
+    margin: 8rem 18rem 0 18rem;
+    padding: 3rem 3rem 0 3rem;
+    position: relative;
+}
+.box-three p{
+    font-size: 1.1rem;
+    color: grey;
+}
+.box-three img{
+    width: 100px;
+    position: absolute;
+    right: 18.5rem;
+    bottom: 7.5rem;
+}
+.section-four{
+    display: flex;
+    padding:3em 10rem;
+    background-color: #EFF2F5;
+}
+.section-four img{
+    width: 50%;
+}
+.box-four{
+    padding: 3rem;
+    text-align: center;
+}
+.box-four p{
+    font-size: 1.1rem;
+    color: grey;
+    margin: 40px 0 60px 0;
+}
+.box-four a{
+    text-decoration: none;
+    color: grey;
+    font-size: 19px;
+}
+.box-four a:hover{
+    border-bottom: 1px solid grey;
+}
+.section-five{
+    text-align: center;
+    padding: 10rem 0;
+    background-image: url(https://static.rbxcdn.com/images/IDE/DevelopSplashScreen/bg_bottom_banner.png);
+}
+.section-five h4{
+    color: white;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+}
+.section-five button{
+    margin: 1.5rem;
+}
+.footer-box a{
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+    font-size: 1.1rem;
+    padding: 0 1rem;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.footer-box a:hover{
+    color: black;
+}
+.footer-box{
+    display: flex;
+    justify-content: center;
+    margin:0 10rem 2rem 10rem;
+    border-bottom: 1px solid rgb(136, 136, 136);
+    padding-bottom: 3rem;
+}
+footer{
+    padding: 1rem 2rem;
+    text-align: center;
+    background-color: #EFF2F5;
+}
+footer p{
+    font-size: 0.8rem;
+    color: grey;
+    font-family: sans-serif;
+}
+.aw{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aw img{
+    margin: 0.3rem;
+}
